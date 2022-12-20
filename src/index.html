@@ -4,20 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=M+PLUS+2:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Aleksandr Ural</title>
   </head>
   <body>
     <button type="button" id="headton">=</button>
+    <img src="icons\settings.svg" />
     <button type="button" id="headton">CONTACT</button>
 
-    <p>Aleksandr Ural</p>
+    <div class="main-container">
+      <p>Aleksandr Ural</p>
+    </div>
 
     <div class="footer">
-      <button type="button" id="footton">HOME</button>
-      <button type="button" id="footton">GALLERY</button>
-      <button type="button" id="footton">ABOUT</button>
-      <button type="button" id="footton">CONTACT</button>
+      <nav>
+        <ul class="footerList">
+          <li><a class="HOME" href="#">HOME</a></li>
+          <li><a class="GALLERY" href="#">GALLERY</a></li>
+          <li><a class="ABOUT" href="#">ABOUT</a></li>
+          <li><a class="CONTACT" href="#">CONTACT</a></li>
+        </ul>
+      </nav>
     </div>
   </body>
 </html>
